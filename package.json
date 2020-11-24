@@ -1,13 +1,13 @@
 {
   "name": "elementos-react",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "React bindings for elementos",
   "author": "malerba118",
   "license": "MIT",
   "repository": "malerba118/elementos-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "source": "src/index.tsx",
+  "source": "src/index.ts",
   "engines": {
     "node": ">=10"
   },
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0 | ^17.0.0",
+    "elementos": "^1.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
